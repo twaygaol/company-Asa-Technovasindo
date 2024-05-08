@@ -1,54 +1,65 @@
-# CodeIgniter 4 Framework
+# Asa Technovasindo Company
 
-## What is CodeIgniter?
+## About
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Ini repositori project website Asa Technovasindo, dibuat sebagai media Sosial untuk kebutuhan internal dan promosi aktivitas dari perusahaan. 
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Feature
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Beberapa fitur di project ini :
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+- Artikel (**DONE**).
+- Produk (**DONE**).
+- Slider (**DONE**). 
+- Lisensi sertif (**DONE**). 
+- Dokumentasi (**DONE**). 
 
-## Important Change with index.php
+## Technology
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+- PHP 8.0
+  Bahasa pemrograman yang digunakan
+- [Codeigniter v4](https://codeigniter.com/)
+  Base framework yang digunakan untuk membangun projek ini.
+- [TailwindCSS v3](https://tailwindcss.com/)
+  Framework css yang digunakan untuk mendesain projek ini.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## How to Run
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Step yang perlu dilakukan untuk dapat menjalankan projek ini.
 
-## Repository Management
+### Manual Installation
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+Jalankan perintah ini di terminal
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+```bash
+# copy env file
+cp .env.example .env
+composer install 
+# install dependency js 
+npm install
+# jalankan migrasi dan seeder
+php spark migrate --all```
 
-## Contributing
+dan pada terminal lain jalankan
 
-We welcome contributions from the community.
+```bash
+php spark serve
+```
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+## Access
 
-## Server Requirements
+Home page dapat diakses pada :
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+- Manual Installation : [http://localhost:8080](http://localhost:8080)
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+Admin panel dapat diakses pada : 
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+- Manual Installation : [http://localhost:8080/admin](http://localhost:8080/admin)
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Gunakan akun ini untuk akses admin panel :
+
+- email: `admin@gmail.com`
+password `admin`
+
+# Lisensi
+MIT Licenci
