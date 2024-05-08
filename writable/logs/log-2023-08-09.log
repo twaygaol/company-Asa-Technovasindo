@@ -1,0 +1,343 @@
+INFO - 2023-08-09 03:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 03:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 03:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 03:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 03:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 03:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 03:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 04:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 04:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 04:35:19 --> Invalid file: "dashboard/produk_tambah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/produk_tambah.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/produk_tambah', [], true)
+ 3 APPPATH\Controllers\Produk.php(30): view('dashboard/produk_tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produk->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 04:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 04:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 04:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 04:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 04:44:58 --> Undefined index: id
+in APPPATH\Views\Dashboard\produk\view.php on line 49.
+ 1 APPPATH\Views\Dashboard\produk\view.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/produk/view', [], true)
+ 5 APPPATH\Controllers\Produk.php(23): view('dashboard/produk/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 04:47:10 --> Undefined index: id
+in APPPATH\Views\Dashboard\produk\view.php on line 49.
+ 1 APPPATH\Views\Dashboard\produk\view.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/produk/view', [], true)
+ 5 APPPATH\Controllers\Produk.php(23): view('dashboard/produk/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 04:47:34 --> Undefined index: id
+in APPPATH\Views\Dashboard\produk\view.php on line 49.
+ 1 APPPATH\Views\Dashboard\produk\view.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/produk/view', [], true)
+ 5 APPPATH\Controllers\Produk.php(23): view('dashboard/produk/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 04:58:30 --> Invalid file: "dashboard/profile/profile.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/profile/profile.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/profile/profile', [], true)
+ 3 APPPATH\Controllers\Profile.php(30): view('dashboard/profile/profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profile->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 04:58:50 --> Invalid file: "dashboard/profile/profile_tambah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/profile/profile_tambah.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/profile/profile_tambah', [], true)
+ 3 APPPATH\Controllers\Profile.php(30): view('dashboard/profile/profile_tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profile->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 04:58:51 --> Invalid file: "dashboard/profile/profile_tambah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/profile/profile_tambah.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/profile/profile_tambah', [], true)
+ 3 APPPATH\Controllers\Profile.php(30): view('dashboard/profile/profile_tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profile->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+ERROR - 2023-08-09 04:59:53 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in D:\laragon\www\asabiotech\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\laragon\www\asabiotech\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\laragon\www\asabiotech\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\laragon\www\asabiotech\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\laragon\www\asabiotech\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\laragon\www\asabiotech\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\laragon\www\asabiotech\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\laragon\www\asabiotech\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\laragon\www\asabiotech\app\Controllers\Profile.php(59): CodeIgniter\Model->insert(Array)
+#8 D:\laragon\www\asabiotech\system\CodeIgniter.php(932): App\Controllers\Profile->store()
+#9 D:\laragon\www\asabiotech\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#10 D:\laragon\www\asabiotech\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\asabiotech\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\asabiotech\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-08-09 04:59:53 --> Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `profile` (`title`, `visi`, `misi`, `keterangan`) VALUES (\'testing\', \'ciptakan lapangan kerja\', \'dengan membangun peradaban manusia\', \'testing\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `profile` (`title`, `visi`, `misi`, `keterangan`) VALUES (\'testing\', \'ciptakan lapangan kerja\', \'dengan membangun peradaban manusia\', \'testing\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `profile` (`title`, `visi`, `misi`, `keterangan`) VALUES (\'testing\', \'ciptakan lapangan kerja\', \'dengan membangun peradaban manusia\', \'testing\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `profile` (`title`, `visi`, `misi`, `keterangan`) VALUES (:title:, :visi:, :misi:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Profile.php(59): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profile->store()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 05:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 05:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 06:52:08 --> Call to a member function deletePost() on array
+in APPPATH\Controllers\BlogController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BlogController->delete('2')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 06:53:31 --> Call to a member function deletePost() on array
+in APPPATH\Controllers\BlogController.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BlogController->delete('2')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 06:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 06:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 07:10:19 --> Undefined variable: post
+in APPPATH\Views\page\blog.php on line 43.
+ 1 APPPATH\Views\page\blog.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: post', 'D:\\laragon\\www\\asabiotech\\app\\Views\\page\\blog.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\page\\blog.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('page/blog', [], true)
+ 5 APPPATH\Controllers\Home.php(45): view('page/blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 07:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 07:13:06 --> Undefined variable: posts
+in APPPATH\Views\page\blog.php on line 42.
+ 1 APPPATH\Views\page\blog.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: posts', 'D:\\laragon\\www\\asabiotech\\app\\Views\\page\\blog.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\page\\blog.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('page/blog', [], true)
+ 5 APPPATH\Controllers\Home.php(45): view('page/blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->blog()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 07:13:53 --> Class 'App\Controllers\PostModel' not found
+in APPPATH\Controllers\Home.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->blog()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 07:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 07:27:49 --> Undefined variable: title
+in APPPATH\Views\Dashboard\blog_view.php on line 8.
+ 1 APPPATH\Views\Dashboard\blog_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\blog_view.php', 8, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\blog_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/blog_view', [], true)
+ 5 APPPATH\Controllers\BlogController.php(24): view('dashboard/blog_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BlogController->show('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 07:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 07:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 09:36:00 --> Undefined index: id
+in APPPATH\Views\Dashboard\produk\view.php on line 49.
+ 1 APPPATH\Views\Dashboard\produk\view.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/produk/view', [], true)
+ 5 APPPATH\Controllers\Produk.php(23): view('dashboard/produk/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 09:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 09:37:21 --> unlink(D:\laragon\www\asabiotech\public/uploads/1691561913_2cc20a63e7d9ea0a206d.jpeg): No such file or directory
+in APPPATH\Controllers\BlogController.php on line 94.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\laragon\\www\\asabiotech\\public/uploads/1691561913_2cc20a63e7d9ea0a206d.jpeg): No such file or directory', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\BlogController.php', 94, [...])
+ 2 APPPATH\Controllers\BlogController.php(94): unlink('D:\\laragon\\www\\asabiotech\\public/uploads/1691561913_2cc20a63e7d9ea0a206d.jpeg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BlogController->delete('3')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BlogController))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 09:37:32 --> Undefined index: id
+in APPPATH\Views\Dashboard\produk\view.php on line 49.
+ 1 APPPATH\Views\Dashboard\produk\view.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\produk\\view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/produk/view', [], true)
+ 5 APPPATH\Controllers\Produk.php(23): view('dashboard/produk/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 09:49:29 --> Undefined property: App\Controllers\Home::$ProdukModel
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ProdukModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Home.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 09:49:54 --> Undefined property: App\Controllers\Home::$ProdukModel
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ProdukModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Home.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 09:51:52 --> Undefined property: App\Controllers\Home::$ProdukModel
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ProdukModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Home.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 09:51:53 --> Undefined property: App\Controllers\Home::$ProdukModel
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ProdukModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Home.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 09:51:53 --> Undefined property: App\Controllers\Home::$ProdukModel
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ProdukModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Home.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-08-09 09:51:54 --> Undefined property: App\Controllers\Home::$ProdukModel
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Home::$ProdukModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Home.php', 27, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 09:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 09:53:03 --> syntax error, unexpected end of file
+in APPPATH\Views\page\beranda.php on line 570.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('page/beranda', [], true)
+ 3 APPPATH\Controllers\Home.php(50): view('page/beranda', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 09:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-09 09:58:02 --> Undefined variable: posts
+in APPPATH\Views\page\beranda.php on line 385.
+ 1 APPPATH\Views\page\beranda.php(385): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: posts', 'D:\\laragon\\www\\asabiotech\\app\\Views\\page\\beranda.php', 385, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\page\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('page/beranda', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('page/beranda', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-08-09 09:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 09:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-09 10:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

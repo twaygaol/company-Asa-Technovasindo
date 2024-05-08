@@ -1,0 +1,372 @@
+INFO - 2023-07-20 17:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 17:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 18:25:30 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:26:18 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:26:20 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:26:33 --> Undefined variable: data
+in APPPATH\Controllers\Slider.php on line 15.
+ 1 APPPATH\Controllers\Slider.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Slider.php', 15, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:28:05 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:30:47 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 18:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 18:34:57 --> Invalid file: "dashboard/slider.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/slider.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/slider', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(29): view('dashboard/slider', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->slider()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:35:38 --> Undefined variable: sliders
+in APPPATH\Views\Dashboard\sliders\slider.php on line 29.
+ 1 APPPATH\Views\Dashboard\sliders\slider.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sliders', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\sliders\\slider.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\sliders\\slider.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/sliders/slider', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(29): view('dashboard/sliders/slider', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->slider()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:37:14 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:39:48 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Slider->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:42:21 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Slider->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:43:11 --> Undefined variable: sliderModel
+in APPPATH\Controllers\Slider.php on line 18.
+ 1 APPPATH\Controllers\Slider.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sliderModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Slider.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:43:31 --> Class 'App\Controllers\Model_Biodata' not found
+in APPPATH\Controllers\Slider.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Slider->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:43:33 --> Class 'App\Controllers\Model_Biodata' not found
+in APPPATH\Controllers\Slider.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Slider->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:43:38 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:43:51 --> Undefined variable: sliderModel
+in APPPATH\Controllers\Slider.php on line 19.
+ 1 APPPATH\Controllers\Slider.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sliderModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Slider.php', 19, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:44:18 --> Call to a member function selectdata() on null
+in APPPATH\Controllers\Slider.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:45:09 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Slider.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 18:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 18:48:23 --> Class 'App\Models\SliderModel' not found
+in APPPATH\Controllers\Slider.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Slider->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:51:06 --> syntax error, unexpected ')'
+in APPPATH\Views\Dashboard\sliders\slider.php on line 38.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/sliders/slider', [], true)
+ 3 APPPATH\Controllers\Slider.php(23): view('dashboard/sliders/slider', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:55:27 --> syntax error, unexpected ')'
+in APPPATH\Views\Dashboard\sliders\slider.php on line 38.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/sliders/slider', [], true)
+ 3 APPPATH\Controllers\Slider.php(23): view('dashboard/sliders/slider', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 18:56:51 --> Undefined variable: sliders
+in APPPATH\Views\Dashboard\sliders\slider.php on line 38.
+ 1 APPPATH\Views\Dashboard\sliders\slider.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sliders', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\sliders\\slider.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\sliders\\slider.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/sliders/slider', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(29): view('dashboard/sliders/slider', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->slider()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 18:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 18:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 19:06:06 --> Undefined variable: sliders
+in APPPATH\Views\Dashboard\slider.php on line 38.
+ 1 APPPATH\Views\Dashboard\slider.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sliders', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\slider.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\slider.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/slider', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(29): view('dashboard/slider', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->slider()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 19:07:28 --> Class 'App\Controllers\SliderModel' not found
+in APPPATH\Controllers\Dashboard.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 19:09:29 --> Class 'App\Controllers\SliderModel' not found
+in APPPATH\Controllers\Dashboard.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 19:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 19:10:40 --> Undefined property: App\Controllers\Dashboard::$SliderModel
+in APPPATH\Controllers\Dashboard.php on line 34.
+ 1 APPPATH\Controllers\Dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Dashboard::$SliderModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Dashboard.php', 34, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->slider()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 19:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 19:11:24 --> Undefined property: App\Controllers\Dashboard::$SliderModel
+in APPPATH\Controllers\Dashboard.php on line 35.
+ 1 APPPATH\Controllers\Dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Dashboard::$SliderModel', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Dashboard.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->slider()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 19:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 19:16:52 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Slider.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->store()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 19:20:32 --> Undefined variable: data
+in APPPATH\Controllers\Slider.php on line 27.
+ 1 APPPATH\Controllers\Slider.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'D:\\laragon\\www\\asabiotech\\app\\Controllers\\Slider.php', 27, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Slider->create()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Slider))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 19:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 19:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 20:04:35 --> Undefined variable: sliders
+in APPPATH\Views\Dashboard\slider_tambah.php on line 38.
+ 1 APPPATH\Views\Dashboard\slider_tambah.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sliders', 'D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\slider_tambah.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\laragon\\www\\asabiotech\\app\\Views\\Dashboard\\slider_tambah.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dashboard/slider_tambah', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('dashboard/slider_tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 20:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 20:23:49 --> Too few arguments to function App\Controllers\Dashboard::edit(), 0 passed in D:\laragon\www\asabiotech\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Dashboard.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+CRITICAL - 2023-07-20 20:24:10 --> Too few arguments to function App\Controllers\Dashboard::edit(), 0 passed in D:\laragon\www\asabiotech\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Dashboard.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 20:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 20:24:22 --> Too few arguments to function App\Controllers\Dashboard::edit(), 0 passed in D:\laragon\www\asabiotech\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Dashboard.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 20:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-20 20:35:29 --> Too few arguments to function App\Controllers\Dashboard::edit(), 0 passed in D:\laragon\www\asabiotech\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Dashboard.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\asabiotech\\public\\index.php')
+INFO - 2023-07-20 20:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 20:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 21:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 21:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 21:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 21:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-20 21:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
